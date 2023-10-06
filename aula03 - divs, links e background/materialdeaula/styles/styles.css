@@ -1,0 +1,58 @@
+/* confirugação geral do browser (*) */
+* {
+   /* margem externa */
+   margin: 0;
+   /* margem interna */
+   padding: 0; 
+}
+#pagina{
+    width: 1200px;
+    margin: 0px auto;
+}
+/* configuração do elemento cujo id = cabecalho */
+#cabecalho{
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    /* margem 4 valores para eixo: x, y, x, y */
+    /* margin: 10PX 20px 50px 100px; */
+    /* padding: 10px; */
+
+    /* margem topo -  margin-top: 100px; */
+    
+    /* margem direita - margin-right: 20px; */
+    
+    /* margem esquerda - margin-left: 20px;*/
+    
+    /* margem inferior */
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    line-height: 60px;
+ 
+}
+#links{
+    
+    height: 40px;
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 2px;
+    line-height: 40px;
+}
+#banner{
+    width: 100%;
+    height: 350px;
+    /* chama a imagem para backgroun */
+    background-image: url(../images/banner-casa-inteligente-home.png);
+   /* tamanho do backgroun */
+    background-size: cover;
+    /* posição da imagem */
+    background-position: center;
+    /* quantas vezes ela poderá se repetir */
+    background-repeat: no-repeat;
+    margin: 2px auto;
+    border-radius: 10px;
+}

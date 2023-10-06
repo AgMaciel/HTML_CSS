@@ -1,0 +1,68 @@
+/* confirugação geral do browser (*) */
+* {
+    /* margem externa */
+    margin: 0;
+    /* margem interna */
+    padding: 0; 
+ }
+ #pagina{
+     width: 1400px;
+     margin: 0px auto;
+ }
+ /* configuração do elemento cujo id = cabecalho */
+ #cabecalho{
+     width: 100%;
+     height: 60px;
+     background-color: brown;
+     /* margem 4 valores para eixo: x, y, x, y */
+     /* margin: 10PX 20px 50px 100px; */
+     /* padding: 10px; */
+ 
+     /* margem topo -  margin-top: 100px; */
+     
+     /* margem direita - margin-right: 20px; */
+     
+     /* margem esquerda - margin-left: 20px;*/
+     
+     /* margem inferior */
+     
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: aliceblue;
+     text-align: center;
+     line-height: 60px;
+  
+ }
+ #links{
+     
+     height: 40px;
+     background-color: blueviolet;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     color: rgb(246, 248, 250);
+     text-align: center;
+     margin-top: 1px;
+     line-height: 40px;
+ }
+ #banner2{
+     width: 100%;
+     height: 500px;
+     /* chama a imagem para backgroun */
+     background-image: url(../images/banner-pao.jpg);
+    /* tamanho do backgroun */
+     background-size: 100%;
+     /* posição da imagem */
+     background-position: 50%;
+     /* quantas vezes ela poderá se repetir */
+     background-repeat: no-repeat;
+     margin: 2px auto;
+     border-radius: 10px;
+  
+ }
+ #conteudo{
+    width: 100%;
+    height: 500px;
+    /* chama a imagem para backgroun */
+    background-image: url(../images/3804348.jpg);
+    background-position: 85%;
+    margin-top: 1px;
+   
+ }
