@@ -76,6 +76,7 @@ nav a{
 #banner img{
     width: 1000%;
     height: 100%;
+    margin: 0 auto; 
    
 }
 h1{
