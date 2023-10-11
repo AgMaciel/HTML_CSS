@@ -1,0 +1,32 @@
+main{
+    width: 80%;
+    margin: 20px auto;
+    background-color: rgb(37, 243, 157);
+    box-shadow:  GRAY 2px 2px;
+    border-radius: 5px;
+    padding: 20PX;;
+}
+h2{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#secaoProdutos{
+    width: 100%;
+    background-color: aquamarine;
+     /* posicionamento padrao do flexbox: esquerda, topo e em coluna */
+    display: flex;
+    /* display: flex; "Muda a disponibilização para linha" */
+    /* reverse - inverte a posição do elemento que se esta sendo editado em linha(row-reverse), em coluna(row-column) e row (linha) */
+    flex-direction: row;
+    /* justificar na posição - start(começo da linha), end(fim), center(centralizado), spacebetween(espacamento entre as divs), spacearound() */
+    justify-content: space-between;
+}
+
+.produto{
+    width: 200px;
+    height: 400px;
+    background-color: blanchedalmond;
+    margin: 10px;
+   
+    
+}
