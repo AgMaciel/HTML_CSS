@@ -3,7 +3,7 @@ main{
    
 }
 container{
-    display: inline-block;
+    display: flexbox;
     position: relative;
 }
 #artigos{
