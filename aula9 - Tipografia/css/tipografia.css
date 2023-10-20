@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandiflora+One&family=Junge&family=Salsa&display=swap');
+@media screen {}
+@font-face{
+    font-size: 'barbie';
+    src:url(./Barbie.otf);
+}
+h1{
+    font-family: 'Grandiflora One';
+    letter-spacing: 10px;
+    /* text-decoration: line-through overline underline; */
+    /* text-decoration-color: aquamarine; */
+    /* text-decoration-style: wavy; */
+    text-shadow: 5px 5px 5px red;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+    word-spacing: 5px;
+    text-indent: 35px;
+    font-style: italic;
+}
+#nico{
+    font-family: 'barbie';
+    height: 18px;
+}
+li{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+quadrado{
+    width: 200px;
+    height: 200px;
+    /* background-color: hsl(0, 50%, 50%); */
+    background-image: linear-gradient( to right red 50%, blue);
+}
