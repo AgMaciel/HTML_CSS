@@ -1,37 +1,57 @@
 *{
     margin: 0;
     padding: 0;
+   
 }
+
 body {
-    width: 500px;
+    width: 700px;
+    height: 700px;
     margin: 80px auto;
     padding: 5px;
-    background-color: #ffcccc; /* Fundo rosa */
+    background-color: #1518d6 Fundo rosa;
 }
+
 header{
-    width: 500px;
-    margin: 0 auto;
-    padding: 5px;
-    background-color: #ffcccc; /* Fundo rosa */
+    width: 350px;
+    height: 700px;
+    margin: 0 auto; ;
+    background-color: #1ed145; /* Fundo rosa */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.losango{
-    width: 150px;
+div{
+    width: 490px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    background-color: #ffffff;
+    justify-content: center;
+    list-style-type: none;
     
 }
-a{
-   justify-content: center;
-      width: 50px;
+
+#produto{
+   
+    align-items: right;
+    background-color: #f0f32a;
+    list-style-type: none;
+  
 }
-h1 {
-    text-align: center;
+
+h1{
     font-size: 2em;
-    color: #f3f2f2; /* Vermelho */
+    color: #afadad; /* Vermelho */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 auto;
+    margin-bottom: -90px;
 }
 h2 {
     font-size: 1.5em;
@@ -39,20 +59,19 @@ h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     align-items: center;
-    
  
 }
-ul {
-    width: 199px;
-    list-style: none;
-    padding: nome;
-    background-color: #f3f2f2; /* Cinza */
-    display: inline-block;
+body h2{
+    text-align: center;
+}
+
+main{
     text-decoration: none;
 }
-article {
-    width: 500px;
-    padding: 15px;
-    background-color: #f5cae8; /* Cinza */
-    display: inline-block;
+
+tr{
+    
+    align-items: center;
+    
 }
+
