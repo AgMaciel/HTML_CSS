@@ -39,8 +39,8 @@ h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #secaoProdutos{
-    width: 100%;
-    height: 4080x;
+    width: 50%;
+    height: 80px;
     /* background-color: aquamarine; */
      /* posicionamento padrao do flexbox: esquerda, topo e em coluna */
     display: flex;
@@ -60,6 +60,19 @@ h2{
     height: 40px;
     /* background-color: blanchedalmond; */
     margin: 10px;
-   
-    
+}
+.acai{
+    width: 5px;
+}
+.barbie{
+    width: 5px;
+}
+.cafedositio{
+    width: 5px;
+}
+.netflix{
+    width: 5px;
+}
+.powerranger{
+    width: 5px;
 }
