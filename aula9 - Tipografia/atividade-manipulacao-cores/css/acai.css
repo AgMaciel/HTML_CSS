@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: auto;
+    height: 40px;
+    padding: 15px;
+}
+nav{
+    width: auto;
+    height: 40px;
+    /* background-color: rgb(145, 248, 248); */
+    float: right;
+    margin: 0 20px;
+    line-height: 40px;
+    padding: 3px;
+}
+nav a{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:black;
+    /* background-color: blueviolet; */
+    margin: 0px 5px;
+    padding: 0 30px;
+}
+
+/* teste */
+        body {
+            font-family: 'Arial', sans-serif; /* Substitua 'Arial' pela fonte que desejar */
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: #333; /* Cor do título */
+        }
+
+        .geometric-shapes {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .shape {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: #3498db; /* Cor de fundo das formas */
+            border: 2px solid #2980b9; /* Cor da borda das formas */
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .shape:nth-child(2) {
+            background-color: #e74c3c;
+            border: 2px solid #c0392b;
+        }
+
+        .shape:nth-child(3) {
+            background-color: #27ae60;
+            border: 2px solid #229954;
+        }
+    
